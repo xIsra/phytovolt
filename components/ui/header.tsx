@@ -30,11 +30,19 @@ export default function Header() {
           </div>
 
           {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-2 font-amatic text-xl">
+          <ul className="flex flex-1 items-center justify-end gap-2 text-lg">
+            <li>
+              <Link
+                href="#home"
+                className="btn shadow-none hover:bg-green-500"
+              >
+                Home
+              </Link>
+            </li>
             <li>
               <Link
                 href="#technology"
-                className="btn shadow-none hover:bg-green-900 hover:text-white text-xl"
+                className="btn shadow-none hover:bg-green-500"
               >
                 Technology
               </Link>
@@ -42,7 +50,7 @@ export default function Header() {
             <li>
               <Link
                 href="#contact"
-                className="btn shadow-none hover:bg-green-900 hover:text-white text-xl"
+                className="btn shadow-none hover:bg-green-500"
               >
                 Contact
               </Link>

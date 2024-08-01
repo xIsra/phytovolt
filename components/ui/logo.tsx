@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Logo() {
   return (
-    <Link href="/" className="inline-flex" aria-label="Cruip">
+    <Link href="/" className="inline-flex" aria-label="Phytovolt">
         <Image src={phytovoltLogo} alt="Phytovolt" width={124} height={56} />
       {/*<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28">*/}
       {/*  <path*/}

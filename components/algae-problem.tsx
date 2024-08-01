@@ -1,16 +1,7 @@
-import Image from "next/image";
-import researchImage from "@/components/assets/phytovolt-research1.jpg";
-
 export default function AlgaeProblem() {
   return (
     <section className="relative h-screen before:absolute before:inset-0 before:-z-20 before:bg-green-50">
       <div className={'absolute h-full w-full'}>
-        <Image
-            src={researchImage}
-            // width={1920}
-            // height={1080}
-            alt="Algae Problem"
-        />
       </div>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
