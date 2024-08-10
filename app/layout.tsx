@@ -80,6 +80,16 @@ export default function RootLayout({
 
             <Footer border={true}/>
         </div>
+        {`
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KEMZ79ZZE0"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-KEMZ79ZZE0');
+        </script>
+`}
         </body>
         </html>
     );
