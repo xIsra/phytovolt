@@ -1,5 +1,3 @@
-import {BrandJsonLd} from "next-seo";
-
 export const metadata = {
     // description: "Phytovolt is a bioenergy company that uses algae to produce sustainable energy.",
     icons: {
